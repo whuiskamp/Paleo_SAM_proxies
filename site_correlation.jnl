@@ -1,0 +1,78 @@
+use EOF_ERA_corr.nc
+use EOF_20CR_corr.nc
+
+let Arau_ERA = Arau_corr[d=1]*mp_mask
+let Aust_ERA = Aust_corr[d=1]*mp_mask
+let Halo_ERA = Halo_corr[d=1]*mp_mask
+let Noth_ERA = Noth_corr[d=1]*mp_mask
+let Koff_ERA = Koff_corr[d=1]*mp_mask
+let Tay_ERA  = Tay_corr[d=1]*mp_mask
+
+let Arau_20CR = Arau_corr[d=2]*mp_mask
+let Aust_20CR = Aust_corr[d=2]*mp_mask
+let Halo_20CR = Halo_corr[d=2]*mp_mask
+let Noth_20CR = Noth_corr[d=2]*mp_mask
+let Koff_20CR = Koff_corr[d=2]*mp_mask
+let Tay_20CR  = Tay_corr[d=2]*mp_mask
+
+set region/x=-1:360/y=90S:20S
+set grid EOF1_corr[d=1]
+go mp_stereographic_south
+go mp_aspect
+
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Arau_ERA, x_page, y_page
+go mp_land
+frame/file=Arau_ERA_1979_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Aust_ERA, x_page, y_page
+go mp_land
+frame/file=Aust_ERA_1979_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Halo_ERA, x_page, y_page
+go mp_land
+frame/file=Halo_ERA_1979_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Noth_ERA, x_page, y_page
+go mp_land
+frame/file=Noth_ERA_1979_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Koff_ERA, x_page, y_page
+go mp_land
+frame/file=Koff_ERA_1979_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Tay_ERA, x_page, y_page
+go mp_land
+frame/file=Tay_ERA_1979_1998.gif
+
+set grid EOF1_corr[d=2]
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Arau_20CR, x_page, y_page
+go mp_land
+frame/file=Arau_20CR_1870_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Aust_20CR, x_page, y_page
+go mp_land
+frame/file=Aust_20CR_1870_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Halo_20CR, x_page, y_page
+go mp_land
+frame/file=Halo_20CR_1870_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Noth_20CR, x_page, y_page
+go mp_land
+frame/file=Noth_20CR_1870_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Koff_20CR, x_page, y_page
+go mp_land
+frame/file=Koff_20CR_1870_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) Tay_20CR, x_page, y_page
+go mp_land
+frame/file=Tay_20CR_1870_1998.gif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

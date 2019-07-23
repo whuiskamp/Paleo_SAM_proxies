@@ -1,0 +1,128 @@
+use EOF_JRA_corr.nc
+use EOF_NCEP2_corr.nc
+use EOF_ERA_corr.nc
+use EOF_ERA40c_corr.nc
+use EOF_20CR_corr.nc
+
+let EOF1_JRA = EOF1_corr[d=1,l=1]*mp_mask
+let EOF2_JRA = EOF2_corr[d=1,l=1]*mp_mask
+let EOF1_JRA_79 = EOF1_corr_79[d=1,l=1]*mp_mask
+let EOF2_JRA_79 = EOF2_corr_79[d=1,l=1]*mp_mask
+
+
+let EOF1_NCEP2 = EOF1_corr[d=2,l=1]*mp_mask
+let EOF2_NCEP2 = EOF2_corr[d=2,l=1]*mp_mask
+
+let EOF1_ERA = EOF1_corr[d=3,l=1]*mp_mask
+let EOF2_ERA = EOF2_corr[d=3,l=1]*mp_mask
+
+let EOF1_ERA40f = EOF1_corr_ERA40f[d=3,l=1]*mp_mask
+let EOF2_ERA40f = EOF2_corr_ERA40f[d=3,l=1]*mp_mask
+
+
+let EOF1_ERA40c = EOF1_corr_ERA40c[d=4,l=1]*mp_mask
+let EOF2_ERA40c = EOF2_corr_ERA40c[d=4,l=1]*mp_mask
+
+let EOF1_ERA40_79 = EOF1_corr_ERA40_79[d=4,l=1]*mp_mask
+let EOF2_ERA40_79 = EOF2_corr_ERA40_79[d=4,l=1]*mp_mask
+
+
+let EOF1_20CR = EOF1_corr[d=5,l=1]*mp_mask
+let EOF2_20CR = EOF2_corr[d=5,l=1]*mp_mask
+
+let EOF1_20CRe = EOF1_corr_early[d=5,l=1]*mp_mask
+let EOF2_20CRe = EOF2_corr_early[d=5,l=1]*mp_mask
+
+let EOF1_20CRl = EOF1_corr_late[d=5,l=1]*mp_mask
+let EOF2_20CRl = EOF2_corr_late[d=5,l=1]*mp_mask
+
+let EOF1_20CR_79 = EOF1_corr_79[d=5,l=1]*mp_mask
+let EOF2_20CR_79= EOF2_corr_79[d=5,l=1]*mp_mask
+
+
+set region/x=-1:360/y=90S:20S
+set grid EOF1_corr[d=1]
+go mp_stereographic_south
+go mp_aspect
+
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_JRA, x_page, y_page
+go mp_land
+frame/file=EOF1_JRA_1955_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_JRA, x_page, y_page
+go mp_land
+frame/file=EOF2_JRA_1955_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_JRA_79, x_page, y_page
+go mp_land
+frame/file=EOF1_JRA_1979_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_JRA_79, x_page, y_page
+go mp_land
+frame/file=EOF2_JRA_1979_1998.gif
+
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_NCEP2, x_page, y_page
+go mp_land
+frame/file=EOF1_NCEP2_1979_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_NCEP2, x_page, y_page
+go mp_land
+frame/file=EOF2_NCEP2_1979_1998.gif
+
+set grid EOF1_corr_ERA40c[d=4]
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_ERA40c, x_page, y_page
+go mp_land
+frame/file=EOF1_ERA40c_1958_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_ERA40c, x_page, y_page
+go mp_land
+frame/file=EOF2_ERA40c_1958_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_ERA40_79, x_page, y_page
+go mp_land
+frame/file=EOF1_ERA40_79_1958_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_ERA40_79, x_page, y_page
+go mp_land
+frame/file=EOF2_ERA40_79_1958_1998.gif
+
+set grid EOF1_corr[d=3]
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_ERA, x_page, y_page
+go mp_land
+frame/file=EOF1_ERA_1979_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_ERA, x_page, y_page
+go mp_land
+frame/file=EOF2_ERA_1979_1998.gif
+
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_ERA40f, x_page, y_page
+go mp_land
+frame/file=EOF1_ERA40f_1958_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_ERA40f, x_page, y_page
+go mp_land
+frame/file=EOF2_ERA40f_1958_1998.gif
+
+set grid EOF1_corr[d=5]
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_20CR, x_page, y_page
+go mp_land
+frame/file=EOF1_20CR_1870_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_20CR, x_page, y_page
+go mp_land
+frame/file=EOF2_20CR_1870_1998.gif
+!fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_20CRe, x_page, y_page
+!go mp_land
+!frame/file=EOF1_20CR_1870_1970.gif
+!fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_20CRe, x_page, y_page
+!go mp_land
+!frame/file=EOF2_20CR_1870_1970.gif
+!fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF3_20CRe, x_page, y_page
+!go mp_land
+!frame/file=EOF3_20CR_1870_1970.gif
+!fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_20CRl, x_page, y_page
+!go mp_land
+!frame/file=EOF1_20CR_1971_1998.gif
+!fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_20CRl, x_page, y_page
+!go mp_land
+!frame/file=EOF2_20CR_1971_1998.gif
+!fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF3_20CRl, x_page, y_page
+!go mp_land
+!frame/file=EOF3_20CR_1971_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF1_20CR_79, x_page, y_page
+go mp_land
+frame/file=EOF1_20CR_1979_1998.gif
+fill/nolab/palette=blue_darkred/noaxes/levels=(-1,1,0.02) EOF2_20CR_79, x_page, y_page
+go mp_land
+frame/file=EOF2_20CR_1979_1998.gif
+

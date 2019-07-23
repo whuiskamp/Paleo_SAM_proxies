@@ -1,0 +1,292 @@
+Southeast Pacific High Resolution Alkenone SST Reconstruction 
+-----------------------------------------------------------------------
+               World Data Center for Paleoclimatology, Boulder
+                                  and
+                     NOAA Paleoclimatology Program
+-----------------------------------------------------------------------
+NOTE: PLEASE CITE CONTRIBUTORS WHEN USING THIS DATA!!!!!
+
+
+NAME OF DATA SET: Southeast Pacific High Resolution Alkenone SST Reconstruction 
+LAST UPDATE: 11/2005 (Original receipt by WDC Paleo)
+CONTRIBUTOR: Jérôme Kaiser, University of Bremen,  <kaiserj@uni-bremen.de>
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2005-073
+
+
+SUGGESTED DATA CITATION: Kaiser, J., et al. 2005. 
+Southeast Pacific High Resolution Alkenone SST Reconstruction.
+IGBP PAGES/World Data Center for Paleoclimatology 
+Data Contribution Series # 2005-073.
+NOAA/NCDC Paleoclimatology Program, Boulder CO, USA.
+
+
+ORIGINAL REFERENCE: Kaiser, J., F. Lamy, and D. Hebbeln.  2005.
+A 70-kyr sea surface temperature record off southern Chile
+(Ocean Drilling Program Site 1233).
+Paleoceanography, Vol. 20, PA4009, doi:10.1029/2004PA001146
+
+ABSTRACT:
+We present the first high-resolution alkenone-derived sea surface 
+temperature (SST) reconstruction in the southeast Pacific (Ocean 
+Drilling Program Site 1233) covering the major part of the last 
+glacial period and the Holocene. The record shows a clear 
+millennial-scale pattern that is very similar to climate 
+fluctuations observed in Antarctic ice cores, suggesting that 
+the Southern Hemisphere high-latitude climate changes extended into 
+the midlatitudes, involving simultaneous changes in air temperatures 
+over Antarctica, sea ice extent, extension of the Antarctic 
+Circumpolar Current, and westerly atmospheric circulation. 
+A comparison to other midlatitude surface ocean records suggests 
+that this "Antarctic" millennial-scale pattern was probably a 
+hemisphere-wide phenomenon. In addition, we performed SST gradient 
+reconstructions over the complete latitudinal range of the Pacific 
+Eastern Boundary Current System for different time intervals during 
+the last 70 kyr. The main results suggest an equatorward displaced 
+subtropical gyre circulation during marine isotope stages 2 and 4.
+
+
+GEOGRAPHIC REGION: Southeast Pacific 
+PERIOD OF RECORD:  70 KYrBP - present
+FUNDING SOURCE: German Science Foundation grant DFG-He-3412-1-3
+
+
+DESCRIPTION:
+70 KYr Alkenone-based Southeast Pacific Sea Surface Temperature Reconstruction
+using the calibration curve from Prahl et al. (1988) (Uk'37 = 0.034T + 0.039)
+ 
+Alkenone data from ODP Site 1233: 41 deg. 0.005'S 74 deg. 26.992'W water depth 838m. 
+
+
+DATA:
+Southeast Pacific Sea Surface Temperature Reconstruction
+Column 1: Depth (mcd)
+Column 2: Age (cal KYr BP 1950)
+Column 3: Alkenone-based SST (°C)
+
+
+ Depth	Age	SST 
+     0	-0.05	13.97
+  0.72	0.37	13.73
+  1.44	0.87	14.24
+  2.17	1.39	14.25
+  2.89	1.87	14.24
+  3.64	2.54	14.06
+  4.34	3.57	14.32
+  5.06	4.26	14.2
+  5.79	4.92	14.27
+  6.51	5.43	14.28
+  7.23	5.83	15
+  7.35	5.90	14.96
+  7.95	6.27	14.86
+  8.67	6.80	14.47
+   9.5	7.63	14.49
+ 10.22	8.42	14.74
+ 10.94	8.99	14.95
+ 11.71	9.39	15.37
+ 12.43	9.77	15.28
+ 13.15	10.15	15.39
+ 13.83	10.53	14.9
+ 14.55	10.92	15.62
+ 15.28	11.32	14.85
+ 15.88	11.64	14.89
+    16	11.71	14.95
+ 16.72	12.10	15.42
+ 17.44	12.44	14.06
+ 18.16	12.75	13.28
+ 18.88	13.05	13.37
+  19.6	13.36	13.25
+ 20.32	13.69	13.37
+ 21.05	14.24	12.72
+ 21.84	14.82	13.52
+ 22.56	15.36	12.8
+ 23.31	15.91	12.6
+ 24.03	16.45	12.86
+ 24.75	16.98	12.1
+ 25.47	17.43	12.35
+ 26.15	17.78	11.15
+ 26.87	18.16	10.06
+ 27.47	18.47	10.34
+ 27.59	18.53	9.95
+  28.3	18.90	9.02
+ 29.02	19.27	8.89
+ 29.86	19.70	9.51
+ 30.46	20.00	9.62
+ 31.21	20.36	9.84
+ 31.93	20.71	9.95
+ 32.68	21.08	9.92
+  33.4	21.43	9.53
+    34	21.65	9.31
+ 34.12	21.69	9.44
+ 34.84	21.93	9.01
+ 35.44	22.13	7.78
+ 35.56	22.17	7.96
+ 36.28	22.42	9.61
+ 37.77	23.07	8.98
+ 38.49	23.40	10.64
+ 39.09	23.67	10.83
+ 39.22	23.73	10.98
+ 39.82	24.03	10.91
+ 39.94	24.09	10.07
+ 40.67	24.47	9.42
+ 41.27	24.78	9.31
+ 41.39	24.84	 9.3
+ 42.11	25.21	10.09
+ 42.84	25.59	10.09
+ 43.59	25.98	8.97
+ 44.19	26.42	8.94
+ 44.31	26.51	8.83
+ 44.43	26.61	8.73
+ 44.91	26.99	10.11
+ 45.03	27.08	 9.5
+ 45.75	27.65	9.91
+ 46.47	28.22	11.23
+ 47.17	28.77	10.74
+ 47.89	29.06	10.57
+ 48.61	29.33	10.38
+ 49.11	29.51	10.83
+ 49.83	29.63	10.21
+ 50.55	29.75	10.3
+ 50.91	29.89	10.22
+ 51.15	30.04	10.71
+ 51.27	30.11	10.57
+ 51.39	30.18	10.32
+ 51.82	30.43	10.96
+    52	30.54	10.65
+ 52.79	31.01	9.61
+ 53.39	31.37	8.70
+  53.5	31.44	8.56
+ 54.22	31.86	10.05
+ 54.94	32.29	10.34
+ 55.67	32.99	9.70
+ 56.42	33.74	10.23
+ 57.32	34.65	10.05
+ 58.03	35.36	9.64
+ 58.75	36.08	10.21
+ 59.45	36.69	10.21
+ 60.17	37.24	10.34
+ 60.89	37.80	8.64
+ 61.61	38.36	9.56
+ 62.38	38.96	10.01
+  63.1	39.30	11.42
+ 63.74	39.57	11.1
+ 63.86	39.62	10.78
+ 64.46	39.87	11.22
+ 64.58	39.92	11.07
+ 64.94	40.06	10.62
+ 65.18	40.14	9.42
+  65.3	40.18	9.50
+ 65.66	40.30	8.98
+ 66.02	40.42	8.52
+ 66.79	40.67	8.62
+  67.4	40.87	9.20
+ 67.52	40.91	9.20
+ 67.76	40.99	8.92
+ 68.24	41.13	9.98
+ 68.85	41.31	9.71
+ 68.97	41.34	9.6
+ 69.81	41.59	10.87
+ 69.93	41.63	9.98
+ 70.05	41.66	9.56
+ 70.65	41.84	10.63
+ 71.33	42.04	9.43
+ 71.37	42.05	9.52
+ 72.06	42.26	9.05
+  72.1	42.27	9.77
+ 72.46	42.37	9.77
+ 72.82	42.48	10.3
+ 73.54	42.69	11.47
+ 74.26	42.90	10.61
+ 74.62	43.01	10.48
+  75.3	43.45	8.98
+ 75.67	43.69	8.27
+ 76.03	43.92	8.6
+ 76.35	44.13	8.35
+ 76.71	44.37	8.53
+ 77.07	44.60	9.21
+ 77.39	44.81	10.39
+ 77.75	45.04	10.55
+ 78.11	45.27	10.62
+ 78.48	45.51	11.19
+  78.8	45.72	11.82
+ 79.16	45.95	11.65
+  79.5	46.18	10.4
+ 79.86	46.41	10.34
+ 80.22	46.64	9.48
+ 80.89	47.08	10.27
+ 81.25	47.31	10.75
+ 81.97	47.76	10.96
+ 82.66	48.18	9.82
+ 83.38	48.63	9.11
+ 84.08	49.06	9.63
+ 84.76	49.48	9.69
+ 85.48	49.93	9.41
+ 86.85	50.78	9.91
+ 87.58	51.23	11.11
+ 88.26	51.65	10.96
+ 88.98	51.92	10.69
+ 89.66	52.17	12.6
+ 90.37	52.43	11.46
+ 91.07	52.69	10.21
+ 92.45	53.20	10.04
+ 93.17	53.47	11.57
+ 93.85	53.72	9.85
+ 94.57	53.99	10.82
+ 95.27	54.25	11.95
+ 95.95	54.50	11.11
+ 96.66	54.76	11.79
+ 97.36	55.07	11.11
+ 98.06	55.39	10.38
+ 98.78	55.71	10.83
+ 99.47	56.02	10.52
+100.15	56.32	10.38
+101.55	56.95	12.27
+102.25	57.12	10.41
+102.97	57.29	11.8
+103.66	57.46	12.44
+104.38	57.63	11.7
+105.07	57.80	11.91
+105.75	57.96	12.34
+106.48	58.14	12.58
+107.16	58.30	11.89
+107.89	58.48	11.55
+108.57	58.64	11.42
+109.26	58.80	11.61
+109.96	58.97	13.53
+111.36	59.31	13.44
+112.08	59.63	12.92
+112.76	59.94	10.49
+113.45	60.25	12.95
+114.17	60.57	9.81
+114.87	60.88	10.05
+115.55	61.19	11.87
+116.28	61.51	12.89
+116.96	61.82	9.59
+117.62	62.11	9.73
+118.37	62.45	9.39
+119.05	62.75	7.88
+119.78	63.08	8.59
+120.46	63.38	8.2
+121.17	63.70	8.65
+ 121.9	64.06	9.72
+122.58	64.40	8.51
+123.26	64.73	8.89
+123.95	65.07	8.49
+124.67	65.43	10.32
+125.37	65.77	8.69
+126.05	66.11	8.07
+126.77	66.46	7.9
+127.45	66.80	7.97
+128.16	67.15	8.88
+128.88	67.50	8.37
+129.56	67.84	8.69
+130.28	68.08	10.29
+130.96	68.30	10.51
+131.67	68.53	12.69
+132.35	68.75	12.3
+133.07	68.99	13.51
+133.75	69.21	13.29
+134.47	69.45	14.68
+135.18	69.68	12.18
+ 135.7	69.85	10.73
+
+

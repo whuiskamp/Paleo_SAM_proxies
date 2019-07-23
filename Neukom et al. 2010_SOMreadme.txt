@@ -1,0 +1,200 @@
+Auxiliary material for Paper 2010GL043680
+
+Multi-centennial summer and winter precipitation variability in southern South America
+
+R. Neukom
+Institute of Geography, Climatology and Meteorology, University of Bern, Bern, Switzerland
+
+Oeschger Centre for Climate Change Research, University of Bern, Bern, Switzerland
+
+J. Luterbacher
+Department of Geography, Climatology, Climate Dynamics and Climate Change, Justus Liebig University Giessen, 
+Giessen, Germany
+
+R. Villalba
+Instituto Argentino de Nivologia y Glaciologia y Ciencias Ambientales, CONICET, Mendoza, Argentina
+
+M. Kuttel 
+Institute of Geography, Climatology and Meteorology, University of Bern, Bern, Switzerland
+
+Oeschger Centre for Climate Change Research, University of Bern, Bern, Switzerland
+
+Department of Earth and Space Sciences, University of Washington, Seattle, Washington, USA
+
+D. Frank 
+Swiss Federal Research Institute WSL, Birmensdorf, Switzerland
+
+P. D. Jones 
+Climatic Research Unit, School of Environmental Sciences, University of East Anglia, Norwich, UK
+
+M. Grosjean 
+Institute of Geography, Climatology and Meteorology, University of Bern, Bern, Switzerland
+
+Oeschger Centre for Climate Change Research, University of Bern, Bern, Switzerland
+
+J. Esper
+Department of Geography, Johannes Gutenberg University, Mainz, Germany
+
+L. Lopez
+Instituto Argentino de Nivologia y Glaciologia y Ciencias Ambientales, CONICET, Mendoza, Argentina
+
+H. Wanner
+Institute of Geography, Climatology and Meteorology, University of Bern, Bern, Switzerland
+
+Oeschger Centre for Climate Change Research, University of Bern, Bern, Switzerland
+
+
+
+Neukom, R., J. Luterbacher, R. Villalba, M. Kuttel, D. Frank, P. D. Jones, M. Grosjean, J. Esper, 
+L. Lopez, and H. Wanner (2010), Multi-centennial summer and winter precipitation variability in 
+southern South America, Geophys. Res. Lett., 37, L14708, doi:10.1029/2010GL043680.
+
+Introduction
+
+This dataset contains detailed information on the methodologies and results of this study. Text S1 
+contains detailed information on the following issues: S1. Alternative illustrations of the 
+reconstructions, S2. Selection of the precipitation proxies, S3. Statistical skill measures, S4. 
+Methodological details on the comparison plots (Figures 3c and 3d in the main text). Tables S1 and S2 
+provide an overview over the predictors used as well as the statistical properties of the predictors. 
+Figures S1-S18 illustrate the text information provided in Text S1.
+
+1. 2010gl043680-txts01.pdf
+Text S1. Alternative illustrations of the reconstructions, selection of the precipitation proxies, 
+statistical skill measures, and methodological details on the comparison plots, with 2 tables and 
+18 figures.
+
+Text S1 contains the follwing sections: S1. Alternative illustrations of the reconstructions, 
+S2. Selection of the precipitation proxies, S3. Statistical skill measures, S4. Methodological 
+details on the comparison plots (Figures 3c and 3d in the main text).
+
+Table S1. Predictors used for the austral summer (DJF) precipitation reconstructions. Start and 
+end years are AD. The non-instrumental predictors are taken from the SSA proxy network of Neukom et al. 
+[2010]. Columns nine to twelve quantify the Spearman correlations of the proxies with the instrumental 
+grid 1931-1995: The highest absolute correlation (max. r; correlation at the “best location”), the 
+coordinates of the “best location” and the percentage of grid cells with significant (p<0.05) 
+correlations. The last four columns indicate the average relative regression weight of each predictor 
+in the years 1498, 1700, 1850 and 1931, respectively (see also Figure S13). Notice that some of the
+documentary and early instrumental data have missing values in 1850.
+Column 1: Predictor Number
+Column 2: Name of the Series
+Column 3: Proxy Archive
+Column 4: Start year
+Column 5: End year
+Column 6: Longitude W
+Column 7: Latitude S
+Column 8: Rererence(s)
+Column 9: The highest absolute correlation with the instrumental grid (max. r; correlation at the 
+"best location")
+Column 10: Longitude W of the "best location"
+Column 11: Latitude S of the "best location"
+Column 12: percentage of grid cells with significant (p<0.05) correlations
+Column 13: Average relative regression weight in the year AD 1498
+Column 14: Average relative regression weight in the year AD 1700
+Column 15: Average relative regression weight in the year AD 1850
+Column 16: Average relative regression weight in the year AD 1931
+
+Table S2. Proxy records used for the austral winter (JJA) precipitation reconstructions. 
+Start and end years are AD. The non-instrumental predictors are taken from the SSA proxy 
+network of Neukom et al. [2010]. Columns nine to twelve quantify the Spearman correlations 
+of the proxies with the instrumental grid 1931-1995: The highest absolute correlation (max. r;
+correlation at the “best location”), the coordinates of the “best location” and the percentage 
+of grid cells with significant (p<0.05) correlations. The last four columns indicate the average 
+relative regression weight of each predictor in the years 1590, 1700, 1850 and 1931, respectively 
+(see also Figure S15).
+Column 1: Predictor Number
+Column 2: Name of the Series
+Column 3: Proxy Archive
+Column 4: Start year
+Column 5: End year
+Column 6: Longitude W
+Column 7: Latitude S
+Column 8: Rererence(s)
+Column 9: The highest absolute correlation with the instrumental grid (max. r; 
+correlation at the "best location")
+Column 10: Longitude W of the "best location"
+Column 11: Latitude S of the "best location"
+Column 12: percentage of grid cells with significant (p<0.05) correlations
+Column 13: Average relative regression weight in the year AD 1498
+Column 14: Average relative regression weight in the year AD 1700
+Column 15: Average relative regression weight in the year AD 1850
+Column 16: Average relative regression weight in the year AD 1931
+
+Figure S1. Spatial anomaly mean of the austral summer (DJF; top; 1498-1995) and winter 
+(JJA; bottom; 1590-1995) reconstructions with respect to the 1931-1995 
+climatology using the ensemble mean (black) and median (red) as reconstructed value, 
+respectively. Green: CRU gridded data 1931-2006.
+
+Figure S2. SSA mean austral summer precipitation reconstruction ensemble 1498-1995
+relative to the 1931-1995 climatology. a) Interannual reconstruction anomalies. 
+Blue to red lines: ensemble members. Black: ensemble median. Bold black: 30-year Gaussian 
+filtered ensemble median. b) Percentiles of the reconstruction ensemble. Each line 
+represents a percentile. The area between the black lines encloses all (100%) members; the 
+area between the lowest blue line (1st percentile) and the highest blue line (99th 
+percentile) blue lines encloses 98% of the members, and so on. c) and d) Same as a) and b) 
+but for the 30-year Gaussian filtered ensemble members.
+
+Figure S3. Same as Figure S2 but for austral winter and the period 1590-1995.
+
+Figure S4. Distribution functions of the ensemble members of the summer precipitation 
+reconstruction at four selected grid points: Tierra del Fuego (68°W/54°S; left), 
+Chiloé Island (74°W/42°S; second), Buenos Aires (58°W/34.5°S, third) and Triple Frontier (tri-
+border area of Argentina, Brazil and Paraguay, 54.5°W/25.5°S; right). The distribution 
+functions are shown for the years AD 1500 (turquoise), 1600 (black), 1700 (red), 1800 (green) 
+and 1900 (blue). All curves are normalized to a mean of zero and divided by the standard 
+deviation of precipitation (1931-1995) at each location. The coloured dots show the 5th and 
+95th percentiles, which were used to define the reconstruction uncertainties (see  main text).
+
+Figure S5. Same as Figure S4 but for winter and the years 1600, 1700, 1800 and 
+1900.
+
+Figure S6. Mean 30-year running correlation between the predictor series (rbar; a) and spatial 
+average of the ensemble mean RE (b) and r2 (c) for the austral summer (green; 1498-1995) and 
+winter (blue; 1590-1995) reconstructions.
+
+Figure S7. Spatial distribution of the RE values, averaged over the entire ensemble and 
+reconstruction period for austral summer (left; 1498-1995) and winter (right; 1590-1995).
+
+Figure S8. Top: Austral summer reconstruction ensemble median 1498-1995 based on 
+all members (black), only the members with positive REs (red) and only the best 
+percent of the members, based on the RE skills (green). Bottom: Histogram of the 
+residuals between the median of all members and the members with positive REs only (left) 
+and between the median of all members and the best percent of the members only (right).
+
+Figure S9. Same as Figure S8 but for austral winter and the years 1590-1995.
+
+Figure S10. Percentiles of the ensemble member distribution of the 30-year 
+filtered summer precipitation reconstruction 1498-1995. a) ensemble of all members; b) 
+ensemble of the best percent of members only (based on the RE skills); c) ensemble of 
+a random selection of 100 members (1%); d) median curves of the three ensembles.
+
+Figure S11. Same as Figure S10 but for austral winter and the years 1590-1995.
+
+Figure S12. Spatial distribution of the root mean squared error of prediction 
+(RMSEP; top) and r2 (bottom) of the reconstruction ensemble median compared with the 
+instrumental target in the period 1931-1995. RMSEP values are relative to the instrumental 
+standard deviation 1931-1995. Left austral summer; right austral winter.
+
+Figure S13. Relative, spatially averaged weight of each predictor in the summer 
+precipitation reconstruction in the years 1498, 1700, 1850 and 1931. See also Table S1.
+
+Figure S14. Predictor with the largest regression weight at each grid cell in 
+the summer precipitation reconstruction in the years 1498 (first panel) 1700 (second panel) 
+1850 (third panel) and 1931 (last panel).
+
+Figure S15. Same as Figure S13 but for winter and the years 1590, 1700, 1850 and 
+1931. See also Table S2.
+
+Figure S16. Same as Figure S14 but for winter and the years 1590, 1700, 1850 and 
+1931.
+
+Figure S17. 30-year filtered austral summer (top) and winter (bottom) reconstructions 
+based on all (green) and the non-instrumental (red) predictors 1851-1995. Filtered 
+uncertainty bands are shaded (uncertainties are defined as the root mean squared difference 
+between theensemble median P and the 5th and 95th percentiles of the ensembles, 
+respectively). Black: CRU gridded data 1931-2006.
+
+Figure S18. Spatial Spearman correlation coefficients between the reconstructions based on
+all and only the non-instrumental predictors, respectively. Left: austral summer, right: 
+austral winter. Period: 1851-1995. Correlations above 0.16 are significant at the 5% 
+level (all values are significant except one grid cell in summer).
+

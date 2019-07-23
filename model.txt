@@ -1,0 +1,17 @@
+model {
+    for(i in 1:N) {
+      prox[i] ~ dnorm(mu[i], tau)
+      mu[i] <- int + b.year[year[i]]
+    }
+
+    for(i in 1:Nyrs) {
+      b.year[i] ~ dnorm(0, tau.year)
+    }
+
+  # Priors
+    tau <- sigma ^ -2
+    sigma ~ dunif(0, 10)
+    tau.year <- sigma_year ^ -2
+    sigma_year ~ dunif(0, 10)
+    int ~ dnorm(0, 0.0001)
+    }

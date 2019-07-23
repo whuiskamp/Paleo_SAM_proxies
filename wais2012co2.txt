@@ -1,0 +1,210 @@
+#West Antarctic Ice Sheet (WAIS) Ice Core WDC-05A 1000 Year CO2 Data 
+#----------------------------------------------------------------------- 
+#               World Data Center for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#----------------------------------------------------------------------- 
+#NOTE: Please cite original reference when using these data, 
+#plus the data file URL and date accessed. 
+#
+#
+#NAME OF DATA SET: 
+#West Antarctic Ice Sheet (WAIS) Ice Core WDC-05A 1000 Year CO2 Data 
+#
+#LAST UPDATE: 5/2012 (Original receipt by WDC Paleo) 
+#CONTRIBUTORS: Ahn, J., E.J. Brook, L. Mitchell, J. Rosen, 
+#J.R. McConnell, K. Taylor, D. Etheridge, and M. Rubino.
+#IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2012-070
+#
+#
+#WDC PALEO CONTRIBUTION SERIES CITATION: 
+#Ahn, J., et al. 2012. 
+#West Antarctic Ice Sheet (WAIS) Ice Core WDC-05A 1000 Year CO2 Data. 
+#IGBP PAGES/World Data Center for Paleoclimatology 
+#Data Contribution Series # 2012-070. 
+#NOAA/NCDC Paleoclimatology Program, Boulder CO, USA. 
+#
+#
+#ORIGINAL REFERENCE: 
+#Ahn, J., E.J. Brook, L. Mitchell, J. Rosen, J.R. McConnell, 
+#K. Taylor, D. Etheridge, and M. Rubino. 2012. 
+#Atmospheric CO2 over the last 1000 years: A high-resolution 
+#record from the West Antarctic Ice Sheet (WAIS) Divide ice core. 
+#Global Biogeochem. Cycles, 26, 2, GB2027, doi:10.1029/2011GB004247
+#
+#ABSTRACT: 
+#We report a decadally resolved record of atmospheric CO2 concentration 
+#for the last 1000 years, obtained from the West Antarctic Ice Sheet 
+#(WAIS) Divide shallow ice core. The most prominent feature of the 
+#pre-industrial period is a rapid ~7 ppm decrease of CO2 in a span 
+#of ~20-50 years at ~1600 A.D. This observation confirms the timing 
+#of an abrupt atmospheric CO2 decrease of ~10 ppm observed for that 
+#time period in the Law Dome ice core CO2 records, but the true 
+#magnitude of the decrease remains unclear. Atmospheric CO2 variations 
+#over the time period 1000-1800 A.D. are statistically correlated with 
+#northern hemispheric climate and tropical Indo-Pacific sea surface 
+#temperature. However, the exact relationship between CO2 and climate 
+#remains elusive due to regional climate variations and/or uneven 
+#geographical data density of paleoclimate records. We observe small 
+#differences of 0 ~ 2% (0 ~ 6 ppm) among the high-precision CO2 records 
+#from the Law Dome, EPICA Dronning Maud Land and WAIS Divide Antarctic 
+#ice cores. However, those records share common trends of CO2 change 
+#on centennial to multicentennial time scales, and clearly show 
+#that atmospheric CO2 has been increasing above preindustrial 
+#levels since ~1850 A.D. 
+#
+#
+#
+#GEOGRAPHIC REGION: Antarctica 
+#PERIOD OF RECORD: 0 - 1000 YrBP 
+#
+#FUNDING SOURCES: 
+#US National Science Foundation (OPP-0739766, OPP 0538427, OPP 0739780)
+#Gary Comer Science and Education Foundation, Korea Polar Research 
+#Institution (KOPRI) grant PE 11090, Basic Science Research Program 
+#of the National Research Foundation of Korea (NRF), funded by the 
+#Ministry of Education, Science and Technology (2011-0025242).
+#
+#
+#DATA FILE URLS: 
+#ftp://ftp.ncdc.noaa.gov/pub/data/paleo/icecore/antarctica/wais2012co2.txt 
+#ftp://ftp.ncdc.noaa.gov/pub/data/paleo/icecore/antarctica/wais2012co2.xls 
+#
+#
+#
+#DESCRIPTION: 
+#Atmospheric CO2 data from the West Antarctic Ice Sheet (WAIS) Divide 
+#shallow core WDC05A.  We measured samples from 109 depth intervals 
+#of the WDC05A core. Each depth interval was usually less than 10 cm 
+#and 3 ~ 6 replicates (4 on average) were analyzed for each depth interval. 
+#The average standard deviation of replicates from the same depth interval 
+#was 1.6 ppm.
+#
+#WAIS Divide Core WDC-05A:
+#79.463�S, 112.125�W, 1759 m elev.
+#
+#
+#
+#
+#DATA: 
+#Ahn et al. 2012 Core WDC-05A CO2 Data
+#
+#*The CO2 mixing ratios were corrected for experimental 
+#offset and gravitational fractionation. 
+#
+#**The uncertainty was estimated from the standard deviation 
+#of the mean for several replicate ice samples. 
+#
+#MeanDepth   Year     MeanCO2*  Uncertainty  #ofReplicate
+#(m)        (A.D.)     (ppm)      (ppm)      Ice Samples
+78.973,    1939.9,    311.6,     1.6,       6
+80.095,    1935.4,    307.1,     0.2,       12
+80.595,    1933.2,    306.5,     1.3,       5
+82.588,    1925.0,    303.9,     0.3,       6
+84.640,    1916.4,    298.8,     1.2,       4
+86.385,    1909.1,    300.7,     1.4,       6
+88.355,    1900.7,    295.9,     0.6,       5
+90.153,    1892.0,    294.0,     0.8,       3
+92.120,    1882.8,    292.1,     0.3,       2
+94.671,    1871.5,    289.8,     0.3,       3
+97.150,    1861.6,    288.3,     1.5,       3
+98.394,    1857.6,    286.7,     0.3,       3
+100.650,   1848.4,    286.9,     1.1,       3
+102.702,   1839.0,    285.3,     0.7,       3
+105.220,   1828.4,    285.9,     0.2,       3
+106.328,   1824.0,    286.0,     0.6,       3
+109.101,   1812.0,    284.4,     0.3,       5
+110.575,   1805.8,    284.4,     0.7,       6
+110.880,   1805.0,    282.6,     0.7,       4
+113.160,   1796.2,    283.7,     1.2,       6
+114.855,   1786.8,    281.7,     0.6,       3
+115.100,   1785.7,    284.2,     0.9,       3
+116.900,   1777.6,    281.8,     0.3,       3
+118.740,   1770.0,    280.0,     1.3,       5
+121.195,   1759.0,    281.7,     0.6,       4
+123.220,   1750.1,    280.1,     0.6,       3
+124.770,   1743.2,    280.6,     1.4,       3
+126.795,   1734.6,    278.7,     1.2,       3
+128.720,   1726.2,    281.4,     0.4,       4
+130.850,   1716.4,    278.9,     0.6,       3
+132.808,   1707.1,    279.0,     1.8,       7
+134.695,   1698.8,    279.5,     0.6,       4
+136.310,   1693.0,    278.9,     0.5,       4
+138.878,   1683.8,    279.1,     0.7,       6
+140.883,   1675.2,    277.7,     0.5,       5
+142.426,   1669.1,    278.0,     0.7,       4
+147.228,   1644.1,    279.2,     0.6,       4
+149.073,   1635.5,    278.8,     1.0,       4
+150.012,   1631.5,    281.3,     0.5,       6
+152.717,   1620.1,    278.6,     0.6,       6
+154.388,   1613.1,    282.2,     0.5,       9
+157.129,   1601.4,    280.9,     0.9,       8
+158.589,   1595.5,    279.9,     0.7,       4
+160.499,   1586.9,    283.2,     1.2,       5
+162.000,   1580.2,    283.9,     0.9,       3
+163.476,   1574.3,    286.4,     0.9,       5
+166.126,   1564.1,    285.5,     0.6,       5
+168.623,   1553.4,    285.8,     0.5,       5
+170.022,   1547.5,    283.9,     1.5,       6
+172.690,   1536.1,    286.3,     0.2,       4
+174.021,   1530.4,    284.7,     0.4,       4
+176.355,   1519.7,    285.5,     0.9,       4
+177.538,   1513.8,    285.3,     0.8,       4
+180.373,   1500.4,    285.3,     0.1,       3
+182.286,   1491.5,    282.2,     0.5,       10
+184.430,   1482.0,    282.7,     0.4,       3
+186.510,   1472.1,    283.3,     0.7,       3
+187.745,   1467.2,    283.8,     0.5,       3
+190.062,   1456.9,    281.1,     0.3,       4
+192.474,   1447.3,    283.5,     0.4,       5
+194.375,   1439.4,    281.9,     1.7,       4
+196.528,   1428.1,    282.5,     0.5,       3
+198.150,   1421.3,    284.6,     0.3,       4
+200.148,   1412.8,    282.5,     0.1,       4
+201.780,    1406.5,    284.8,     1.4,       4
+204.990,    1391.3,    285.2,     0.6,       6
+207.166,    1381.4,    283.5,     0.6,       4
+207.825,    1378.7,    284.1,     0.9,       3
+209.798,    1369.2,    285.3,     0.5,       3
+212.656,    1356.2,    284.7,     1.3,       5
+214.243,    1348.3,    283.7,     0.7,       3
+216.507,    1339.1,    284.9,     0.9,       7
+219.082,    1329.0,    284.5,     0.7,       8
+220.999,    1320.3,    284.4,     0.4,       12
+222.926,    1312.0,    285.4,     0.3,       3
+224.870,    1303.1,    283.8,     0.4,       3
+226.081,    1297.7,    284.4,     1.3,       3
+228.310,    1286.0,    284.7,     1.2,       8
+229.981,    1278.9,    283.7,     1.3,       4
+232.095,    1270.2,    284.9,     0.8,       3
+234.037,    1261.6,    286.1,     1.1,       3
+235.770,    1254.8,    283.2,     0.8,       4
+237.340,    1248.4,    284.3,     0.8,       3
+240.495,    1235.1,    283.6,     1.3,       3
+243.344,    1224.2,    286.2,     1.9,       9
+245.020,    1217.6,    284.1,     1.1,       3
+246.556,    1211.9,    284.2,     0.6,       3
+248.256,    1205.4,    284.3,     0.5,       6
+248.840,    1203.2,    287.5,     1.2,       6
+251.708,    1193.7,    286.5,     1.1,       3
+254.105,    1179.5,    285.1,     0.8,       4
+256.315,    1169.7,    286.3,     0.4,       4
+260.970,    1150.0,    287.4,     1.2,       4
+262.425,    1143.7,    284.6,     0.4,       4
+266.768,    1126.3,    286.1,     0.6,       5
+269.153,    1116.9,    285.3,     0.5,       3
+272.243,    1103.0,    286.5,     1.4,       4
+275.252,   1090.4,    285.4,     0.4,       6
+277.235,    1082.5,    285.4,     0.6,       4
+278.567,    1076.7,    284.5,     0.8,       3
+279.850,    1072.2,    283.3,     0.3,       3
+285.196,    1046.7,    283.9,     1.0,       4
+286.050,    1042.6,    282.1,     1.2,       4
+286.271,    1041.4,    282.3,     0.4,       5
+286.719,    1039.0,    280.6,     1.2,       3
+288.830,    1030.1,    282.9,     1.0,       4
+292.165,    1015.9,    284.0,     1.4,       3
+295.590,    1001.7,    282.0,     0.6,       4
+297.575,    993.1,     282.0,     0.6,       4
+
+

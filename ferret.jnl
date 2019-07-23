@@ -1,0 +1,12 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.72  
+ ! Linux 2.6.32-131.12.1.el6.x86_64 64-bit - 09/13/11
+ ! 15-Jan-16 12:27     
+
+use "ERA-Interim/Uwind850_ERA_Int_79_98.nc"
+show data
+list U[i=,j=1,l=1]
+list U[i=1,j=1,l=1]
+shade U[l=@ave]
+go land
+ex

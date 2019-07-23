@@ -1,0 +1,264 @@
+# WAIS Divide Ice Core 1,200 Year Atmospheric CO2 and d13CO2 Data 					
+#----------------------------------------------------------------------- 					
+#                World Data Center for Paleoclimatology, Boulder 					
+#                                  and 					
+#                     NOAA Paleoclimatology Program 					
+#----------------------------------------------------------------------- 					
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 					
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 					
+#					
+#					
+# Online_Resource: http://ncdc.noaa.gov/paleo/study/18316					
+#					
+# Original_Source_URL: ftp://ftp.ncdc.noaa.gov/pub/data/paleo/icecore/antarctica/wais2015co2.txt					
+# 					
+# Description/Documentation lines begin with #					
+# Data lines have no #					
+#					
+# Archive: Ice Cores					
+#					
+# Contribution_Date					
+#	Date: 2015-04-27				
+#--------------------					
+# Title					
+#	Study_Name: WAIS Divide Ice Core 1,200 Year Atmospheric CO2 and d13CO2 Data				
+#--------------------					
+# Investigators					
+#       Investigators: Bauska, T.K.; Joos, F.; Mix, A.C.; Roth, R.; Ahn, J.; Brook, E.J.					
+#--------------------					
+# Description_Notes_and_Keywords					
+#	Description: CO2 concentration and Stable Isotopic Composition of CO2 from WAIS Divide ice cores for the past 1,200 years. 				
+#--------------------					
+# Publication 					
+#       Authors: Thomas K. Bauska, Fortunat Joos, Alan C. Mix, Raphael Roth, Jinho Ahn, and Edward J. Brook					
+#       Published_Date_or_Year: 2015-04-27     					
+#       Published_Title: Links between atmospheric carbon dioxide, the land carbon reservoir and climate over the past millennium					
+#       Journal_Name: Nature Geoscience					
+#       Volume: 8					
+#       Edition: 					
+#       Issue: 5					
+#       Pages: 383-387					
+#       DOI: 10.1038/NGEO2422					
+#       Online_Resource: http://www.nature.com/ngeo/journal/v8/n5/abs/ngeo2422.html					
+#       Full_Citation: 					
+#       Abstract: The stability of terrestrial carbon reservoirs is thought to be closely linked to variations in climate, but the magnitude of carbon-climate feedbacks has proved difficult to constrain for both modern and millennial timescales. Reconstructions of atmospheric CO2 concentrations for the past thousand years have shown fluctuations on multidecadal to centennial timescales, but the causes of these fluctuations are unclear. Here we report high-resolution carbon isotope measurements of CO2 trapped within the ice of the West Antarctic Ice Sheet Divide ice core for the past 1,000 years. We use a deconvolution approach to show that changes in terrestrial organic carbon stores best explain the observed multidecadal variations in the d13C of CO2 and in CO2 concentrations from 755 to 1850 CE. If significant long-term carbon emissions came from pre-industrial anthropogenic land-use changes over this interval, the emissions must have been offset by a natural terrestrial sink for 13C-depleted carbon, such as peatlands. We find that on multidecadal timescales, carbon cycle changes seem to vary with reconstructed regional climate changes. We conclude that climate variability could be an important control of fluctuations in land carbon storage on these timescales.					
+#------------------					
+# Publication 					
+# 	Authors: Jinho Ahn, Edward J. Brook, Logan Mitchell, Julia Rosen, Joseph R. McConnell, Kendrick Taylor, David Etheridge, and Mauro Rubino 				
+#	Published_Date_or_Year: 2012-06-01     				
+#	Published_Title: Atmospheric CO2 over the last 1000 years: A high-resolution record from the West Antarctic Ice Sheet (WAIS) Divide ice core				
+#	Journal_Name: Global Biogeochemical Cycles				
+#	Volume: 26				
+#	Edition: GB2027				
+#	Issue: 2				
+#	Pages: 				
+#	DOI: 10.1029/2011GB004247				
+#	Online_Resource: http://onlinelibrary.wiley.com/wol1/doi/10.1029/2011GB004247/abstract				
+#	Full_Citation: 				
+#	Abstract: We report a decadally resolved record of atmospheric CO2 concentration for the last 1000 years, obtained from the West Antarctic Ice Sheet (WAIS) Divide shallow ice core. The most prominent feature of the pre-industrial period is a rapid ~7 ppm decrease of CO2 in a span of ~20-50 years at ~1600 A.D. This observation confirms the timing of an abrupt atmospheric CO2 decrease of ~10 ppm observed for that time period in the Law Dome ice core CO2 records, but the true magnitude of the decrease remains unclear. Atmospheric CO2 variations over the time period 1000-1800 A.D. are statistically correlated with northern hemispheric climate and tropical Indo-Pacific sea surface temperature. However, the exact relationship between CO2 and climate remains elusive due to regional climate variations and/or uneven geographical data density of paleoclimate records. We observe small differences of 0 ~ 2% (0 ~ 6 ppm) among the high-precision CO2 records from the Law Dome, EPICA Dronning Maud Land and WAIS Divide Antarctic ice cores. However, those records share common trends of CO2 change on centennial to multicentennial time scales, and clearly show that atmospheric CO2 has been increasing above preindustrial levels since ~1850 A.D.				
+#------------------					
+# Funding_Agency 					
+#       Funding_Agency_Name: US National Science Foundation					
+#       Grant: 0839078					
+#------------------					
+# Site_Information 					
+#       Site_Name: WAIS Divide (WDC-05A and WDC-06A)					
+#       Location: Antarctica					
+#	Country:  				
+#	Northernmost_Latitude: -79.467				
+# 	Southernmost_Latitude: -79.467 				
+# 	Easternmost_Longitude: -112.1251				
+# 	Westernmost_Longitude: -112.1251				
+# 	Elevation:   m  				
+#------------------					
+# Data_Collection   					
+#	Collection_Name: WAIS2015CO2				
+#	Earliest_Year: 733				
+#	Most_Recent_Year: 1939				
+#	Time_Unit: Year AD				
+#	Core_Length: 355m				
+#	Notes: 				
+#------------------					
+# Chronology: WDCO6A-7 as described in Mitchell, Logan, Edward Brook, James E. Lee, Christo Buizert, and Todd Sowers. 2013. 					
+# Constraints on the Late Holocene Anthropogenic Contribution to the Atmospheric Methane Budget. 					
+# Science 342(6161): 964-966. 					
+# 					
+#					
+# 					
+#----------------					
+# Variables 					
+#					
+"# Data variables follow are preceded by ""##"" in columns one and two."					
+# Data line variables format:  Variables list, one per line, shortname-tab-longname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data) 					
+#					
+## Core_ID	WAIS Divide Core ID, , , , , , , ,C				
+## depth_m	depth, , , m, , , middle of sample interval, ,N				
+## age_AD	age, , , calendar year AD, , , , ,N				
+## co2_ppm	CO2 concentration, , , ppm, ,ice core, , ,N 				
+## co2_1s_ppm	CO2 concentration 1 sigma error, , , ppm, ,ice core, , ,N 				
+## num_reps	number of replicates, , , , , , , ,N				
+#					
+#----------------					
+# Data:					
+# Data lines follow (have no #)					
+# Data line format - tab-delimited text, variable short name as header					
+# Missing Values:  					
+#					
+					
+Core_ID	depth_m	age_AD	co2_ppm	co2_1s_ppm	num_reps
+WDC05A	78.973	1939.7	311.6	1.6	6
+WDC05A	80.095	1934.8	307.1	0.2	12
+WDC05A	80.595	1933	306.5	1.3	5
+WDC05A	82.588	1924.5	303.9	0.3	6
+WDC05A	84.64	1915.8	298.8	1.2	4
+WDC05A	86.385	1908.4	300.7	1.4	6
+WDC05A	88.355	1900	295.9	0.6	5
+WDC05A	90.153	1892	294	0.8	3
+WDC05A	92.12	1883.7	292.1	0.3	2
+WDC05A	94.671	1872.5	289.8	0.3	3
+WDC05A	97.15	1861.7	288.3	1.5	3
+WDC05A	98.394	1856.1	286.7	0.3	3
+WDC05A	100.65	1846.2	286.9	1.1	3
+WDC05A	102.702	1837.2	285.3	0.7	3
+WDC05A	105.22	1826	285.9	0.2	3
+WDC05A	106.328	1821.3	286	0.6	3
+WDC05A	109.101	1808.9	284.4	0.3	5
+WDC05A	110.575	1802.6	284.4	0.7	6
+WDC05A	110.88	1801.2	282.6	0.7	4
+WDC05A	113.16	1791.1	283.7	1.2	6
+WDC05A	114.855	1783.7	281.7	0.6	3
+WDC05A	115.1	1782.5	284.2	0.9	3
+WDC05A	116.9	1774.7	281.8	0.3	3
+WDC05A	118.74	1766.7	280	1.3	5
+WDC05A	121.195	1755.5	281.7	0.6	4
+WDC05A	123.22	1746.7	280.1	0.6	3
+WDC05A	124.77	1739.7	280.6	1.4	3
+WDC05A	126.795	1730.7	278.7	1.2	3
+WDC05A	128.72	1722.3	281.4	0.4	4
+WDC06A	129.12	1720	282.2	0.4	3
+WDC05A	130.85	1712.9	278.9	0.6	3
+WDC06A	131.22	1711	279.6	0.6	3
+WDC05A	132.808	1704.1	279	1.8	7
+WDC05A	134.695	1695.9	279.5	0.6	4
+WDC06A	135.22	1694	278.9	0.4	3
+WDC05A	136.31	1688.6	278.9	0.5	4
+WDC05A	138.878	1677.6	279.1	0.7	6
+WDC06A	139.22	1676	279.6	0.6	3
+WDC05A	140.883	1668.6	277.7	0.5	5
+WDC05A	142.426	1661.8	278	0.7	4
+WDC06A	143.22	1658	280.5	0.4	3
+WDC06A	145.22	1650	280.9	0.5	2
+WDC06A	147.22	1641	278.9	0.9	3
+WDC05A	147.228	1641	279.2	0.6	4
+WDC05A	149.073	1632.6	278.8	1	4
+WDC06A	149.22	1632	282.1	0.3	2
+WDC05A	150.012	1628.6	281.3	0.5	6
+WDC06A	151.22	1623	280.9	0.3	3
+WDC05A	152.717	1616.5	278.6	0.6	6
+WDC06A	153.12	1615	279.9	1.1	2
+WDC05A	154.388	1609	282.2	0.5	9
+WDC06A	155.22	1605	280.2	0.4	3
+WDC06A	157.12	1597	281.5	0.8	2
+WDC05A	157.129	1596.7	280.9	0.9	8
+WDC05A	158.589	1590.4	279.9	0.7	4
+WDC06A	159.22	1587	284.5	0.3	3
+WDC05A	160.499	1581.9	283.2	1.2	5
+WDC05A	162	1575.1	283.9	0.9	3
+WDC05A	163.476	1568.6	286.4	0.9	5
+WDC05A	166.126	1556.9	285.5	0.6	5
+WDC05A	168.623	1546	285.8	0.5	5
+WDC05A	170.022	1539.5	283.9	1.5	6
+WDC05A	172.69	1527.5	286.3	0.2	4
+WDC05A	174.021	1521.6	284.7	0.4	4
+WDC05A	176.355	1511.2	285.5	0.9	4
+WDC05A	177.538	1505.5	285.3	0.8	4
+WDC05A	180.373	1493.1	285.3	0.1	3
+WDC05A	182.286	1484.6	282.2	0.5	10
+WDC05A	184.43	1475.2	282.7	0.4	3
+WDC05A	186.51	1465.8	283.3	0.7	3
+WDC05A	187.745	1460.3	283.8	0.5	3
+WDC05A	190.062	1450	281.1	0.3	4
+WDC05A	192.474	1439.2	283.5	0.4	5
+WDC05A	194.375	1430.5	281.9	1.7	4
+WDC05A	196.528	1421	282.5	0.5	3
+WDC05A	198.15	1413.9	284.6	0.3	4
+WDC05A	200.148	1405.1	282.5	0.1	4
+WDC05A	201.78	1398.2	284.8	1.4	4
+WDC05A	204.99	1383.6	285.2	0.6	6
+WDC05A	207.166	1373.9	283.5	0.6	4
+WDC05A	207.825	1370.9	284.1	0.9	3
+WDC05A	209.798	1362	285.3	0.5	3
+WDC05A	212.656	1349.5	284.7	1.3	5
+WDC05A	214.243	1342.2	283.7	0.7	3
+WDC05A	216.507	1332	284.9	0.9	7
+WDC05A	219.082	1320.6	284.5	0.7	8
+WDC05A	220.999	1311.9	284.4	0.4	12
+WDC05A	222.926	1303.5	285.4	0.3	3
+WDC05A	224.87	1295	283.8	0.4	3
+WDC05A	226.081	1289.5	284.4	1.3	3
+WDC05A	228.31	1279.6	284.7	1.2	8
+WDC05A	229.981	1272.2	283.7	1.3	4
+WDC05A	232.095	1262.7	284.9	0.8	3
+WDC05A	234.037	1254.1	286.1	1.1	3
+WDC06A	235.12	1249	285	0.2	2
+WDC05A	235.77	1246.4	283.2	0.8	4
+WDC06A	237.22	1240	282.1	0.2	3
+WDC05A	237.34	1239.9	284.3	0.8	3
+WDC05A	240.495	1225.8	283.6	1.3	3
+WDC06A	241.22	1223	284.8	0.9	3
+WDC05A	243.344	1213.4	286.2	1.9	9
+WDC05A	245.02	1205.9	284.1	1.1	3
+WDC06A	245.22	1205	286.9	0.3	3
+WDC05A	246.556	1199.4	284.2	0.6	3
+WDC05A	248.256	1192	284.3	0.5	6
+WDC05A	248.84	1189.3	287.5	1.2	6
+WDC06A	249.22	1188	284.7	0.4	3
+WDC05A	251.708	1176.6	286.5	1.1	3
+WDC06A	253.22	1170	285.7	1.3	3
+WDC05A	254.105	1166	285.1	0.8	4
+WDC05A	256.315	1156.4	286.3	0.4	4
+WDC06A	257.22	1153	284.7	0.8	3
+WDC05A	260.97	1136.2	287.4	1.2	4
+WDC06A	261.22	1135	285.3	0.5	3
+WDC05A	262.425	1129.8	284.6	0.4	4
+WDC06A	265.22	1118	285.5	0.8	3
+WDC05A	266.768	1111.2	286.1	0.6	5
+WDC06A	269.15	1101	285.9	0.8	3
+WDC05A	269.153	1101.3	285.3	0.5	3
+WDC05A	272.243	1088	286.5	1.4	4
+WDC06A	273.16	1084	286	0.8	3
+WDC05A	275.252	1075.1	285.4	0.4	6
+WDC06A	277.18	1067	285.8	0.4	4
+WDC05A	277.235	1066.6	285.4	0.6	4
+WDC05A	278.567	1060.9	284.5	0.8	3
+WDC05A	279.85	1055.6	283.3	0.3	3
+WDC06A	281.18	1050	285.7	1.1	4
+WDC06A	285.16	1033	284.6	1.3	4
+WDC05A	285.196	1033	283.9	1	4
+WDC05A	286.05	1029.4	282.1	1.2	4
+WDC05A	286.271	1028.5	282.3	0.4	5
+WDC05A	286.719	1026.6	280.6	1.2	3
+WDC06A	287.16	1024	283.5	1.3	4
+WDC05A	288.83	1017.7	282.9	1	4
+WDC06A	291.17	1008	283.5	0.7	3
+WDC05A	292.165	1003.1	284	1.4	3
+WDC06A	295.16	990	282.7	1.3	4
+WDC05A	295.59	988.6	282	0.6	4
+WDC05A	297.575	979.8	282	0.6	4
+WDC06A	299.19	973	280.9	0.9	3
+WDC06A	303.16	956	281.6	0.7	3
+WDC06A	305.16	947	282.1	1.1	4
+WDC06A	307.16	938	280.8	0.9	3
+WDC06A	311.16	921	280.6	1.2	4
+WDC06A	315.19	903	280.6	0.5	3
+WDC06A	319.16	886	283.5	0.2	4
+WDC06A	323.13	869	280.3	0.5	3
+WDC06A	327.19	851	280.1	0.2	3
+WDC06A	331.16	834	282.5	0.7	4
+WDC06A	335.16	817	280.2	1.9	4
+WDC06A	339.16	800	280.3	0.6	3
+WDC06A	341.19	792	280.7	0.3	3
+WDC06A	343.16	783	279.5	0.9	3
+WDC06A	347.33	766	280.9	0.7	4
+WDC06A	351.18	749	280.6	0.9	4
+WDC06A	355.16	733	280.7	0.4	3
